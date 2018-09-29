@@ -5,12 +5,15 @@ This is collection of C# extension methods.
 
 ## Collection
 NotNullOrEmpty<T>(this IList<T> list)
+
 Checks List is null and have at least one item
 
 Checks IEnumerable is null and have at least one item
+
 NotNullOrEmpty<T>(this IEnumerable<T> list)
   
 Add or Update dictionary
      - Adds new key value pair if key is not exist
      - Update value if provided key exist
+
 AddOrUpdate<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key, TValue value)
